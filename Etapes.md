@@ -16,8 +16,7 @@
 ( Pour stocker les noms des package qu'on veut utliser)
 
 ## Installation des packages :
-- par la commande :  
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
 
 ## Création du projet Django :
     django-admin startproject NomProjet
@@ -30,12 +29,12 @@
 1. Création du repo dans GitHub qui porte le même nom du projet
 2. Configuration du repo courant avec les commandes suivants  
 
-    `git init`
-    `git status`
-    `git add .`
-    `git commit -m "first commit"`
-    `git branch -M main`
-    `git remote add origin https://LienProjet`
+    `git init`  
+    `git status`  
+    `git add .`  
+    `git commit -m "first commit"`  
+    `git branch -M main`  
+    `git remote add origin https://LienProjet`  
     `git push -u origin main`  
     
 ### ***Remarque :***
