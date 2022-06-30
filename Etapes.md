@@ -16,27 +16,31 @@
 ( Pour stocker les noms des package qu'on veut utliser)
 
 ## Installation des packages :
-par la commande : 
-    pip install -r requirements.txt
+- par la commande :  
+    `pip install -r requirements.txt`
 
 ## Création du projet Django :
     django-admin startproject NomProjet
 
 ## Démmarrage du projet :
 (Pour tester le bon fontionnement du projet )  
-    python manage.py runserver 
+    `python manage.py runserver` 
 
 ## Liaison du projet avec GitHub :
 1. Création du repo dans GitHub qui porte le même nom du projet
-2. Configuration du repo courant avec les commandes suivants 
-    git init
-    git status
-    git add .
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://LienProjet
-    git push -u origin main
-***Remarque :***
-        **La création d'un nouveu fichier ".gitignore" pour préciser les élements à ignorer.**
+2. Configuration du repo courant avec les commandes suivants  
+
+    `git init`
+    `git status`
+    `git add .`
+    `git commit -m "first commit"`
+    `git branch -M main`
+    `git remote add origin https://LienProjet`
+    `git push -u origin main`  
+    
+### ***Remarque :***
+**La création d'un nouveu fichier ".gitignore" pour préciser les élements à ignorer.**
+
+        
     
     
