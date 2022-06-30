@@ -5,11 +5,12 @@
 2. django
 3. django snipets 
 
-## Préparation d'environnement du travail :
-1. Création d'un dossier qui porte le nom du projet
-2. Création d'environnement virtuel 
+## Création d'un dossier qui porte le nom du projet
+
+## Création d'environnement virtuel 
     pyhton -m venv NomEnvironnement
-3. Activation d'environnement
+    
+## Activation d'environnement
     NomEnvironnement\Scripts\activate
 
 ## Création du fichier requirements.txt :
