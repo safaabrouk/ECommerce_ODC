@@ -22,9 +22,9 @@
     django-admin startproject NomProjet
 
 ## Démmarrage du projet :
+    python manage.py runserver  
 (Pour tester le bon fontionnement du projet )  
-    `python manage.py runserver` 
-
+    
 ## Liaison du projet avec GitHub :
 1. Création du repo dans GitHub qui porte le même nom du projet
 2. Configuration du repo courant avec les commandes suivants  
