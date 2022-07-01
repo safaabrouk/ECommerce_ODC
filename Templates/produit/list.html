@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %}Product List{% endblock %}
+
+{% block content %}
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Titre</th>
+        <th scope="col">Prix</th>
+        <th scope="col">Opération</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for produit in produits %}
+      <tr>
+        <th scope="row">{{produit.id}}</th>
+        <td>{{produit.titre}}</td>
+        <td>{{produit.prix}}</td>
+        <td >
+          <a href="#">
+            <i class="fa fa-pencil-square-o" aria-hidden="true" style="cursor:pointer"></i>
+          </a>
+          <a href="{% url 'products:product_details' produit.id %}">
+          <i class="fa fa-eye" aria-hidden="true" style="cursor:pointer"></i>
+          </a>
+        </td>
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+{% endblock %}
